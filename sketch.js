@@ -22,7 +22,7 @@ box2 = new Box(600,250,50,50);
 box3 = new Box(600,200,50,50);
 box4 = new Box(600,150,50,50);
 ball = new Ball(400,200,30);
-sling = new Slingshot(ball.body,{x:500,y:50})
+sling = new SlingShot(ball.body,{x:500,y:50})
 }
 
 function draw() {
